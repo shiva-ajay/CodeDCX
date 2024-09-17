@@ -48,6 +48,7 @@ interface ICourseData extends Document {
   courseData: ICourseData[];
   ratings?: number;
   purchased: number;
+  createdAt: Date;
 }
 
 const reviewSchema = new Schema<IReview>({
