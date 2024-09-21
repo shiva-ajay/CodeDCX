@@ -2,6 +2,7 @@ import "./globals.css";
 import { Poppins } from "next/font/google";
 import { Josefin_Sans } from "next/font/google";
 import { ThemeProvider } from "./utils/theme-provider";
+import { Toaster } from "react-hot-toast";
 
 
 
@@ -30,7 +31,7 @@ export default function RootLayout({
               
                 <div>{children}</div>
        
-              
+            <Toaster  position="top-center" reverseOrder={false}/>  
             </ThemeProvider>
       </body>
     </html>

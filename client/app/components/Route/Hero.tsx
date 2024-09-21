@@ -27,7 +27,7 @@ const Hero: FC<Props> = (props) => {
         </h2>
         <br />
         <p className="dark:text-[#edfff4] text-[#000000ac] font-Josefin font-[600] text-[18px] 1500px:!w-[55%] 1100px:!w-[78%]">
-         We have 40k+ Online Courses & 500k+ Online registered student. Find your desired Courses from them.
+         We have 0+ Online Courses & 0+ Online registered student. Find your desired Courses from them.
         </p>
         <br />
         <br />
@@ -63,7 +63,7 @@ const Hero: FC<Props> = (props) => {
             className="rounded-full ml-[-20px]"
           />
           <p className="font-Josefin dark:text-[#edfff4] text-[#000000b3] 1000px:pl-3 text-[18px] font-[600]">
-            500K+ People already trusted us.{" "}
+            0 People already trusted us.{" "}
             <Link
               href="/courses"
               className="dark:text-[#46e256] text-[crimson]"
